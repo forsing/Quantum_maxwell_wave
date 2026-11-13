@@ -14,9 +14,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -283,17 +283,17 @@ Metoda: Quantum Maxwell Coupled-Field Wave Interference (7x6 qubita)
 CSV: loto7_4718_k90.csv
 Validacija NLL (omega=0.2): 20.7665
 Test NLL: 20.6828
-NEXT: [2, 5, 18, 21, 22, 32, 38]
+NEXT: [2, x, 18, y, 22, z, 38]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (omega=0.2): 20.8893
 Test NLL: 20.9336
-NEXT: [3, 5, 15, 22, 27, 31, 38]
+NEXT: [3, x, 15, y, 27, z, 38]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (omega=0.2): 21.1380
 Test NLL: 20.7905
-NEXT: [2, 8, 16, 24, 28, 33, 38]
+NEXT: [2, x, 16, y, 28, z, 38]
 """
 
 
